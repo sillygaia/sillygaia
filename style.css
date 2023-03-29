@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://i.ibb.co/gb0QZ8n/zampe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.text h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    font-family: 'cute';
+    font-weight:normal;
+    font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0,5px rgb(255, 255, 255);
+    margin-top: 100px; 
+    margin-left: 15px; 
+    }
+
+h1 span {
+  background-color: #ffffff;
+}
+
+iframe {
+  min-height: 42vh;
+  min-width: 70vh;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 480px) {
+    .show-on-desktop {
+      display: none;
+    }
+  }
+  
+@media screen and (min-width: 481px) {
+    .hide-on-desktop {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .video-container {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .text {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+}
+
+.pc {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+    font-family: 'DeliciousHandrawn', cursive;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0,5px rgb(255, 255, 255);
+    margin-top: 300px; 
+}
+
+body {
+  font-family: 'DeliciousHandrawn', cursive;
+}
+
+@media screen and (min-width: 600px) {
+    .pc {
+      visibility: visible;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+@media screen and (min-width: 600px) {
+  .video-container {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width: 600px) {
+    .text {
+      visibility: visible;
+    }
+  }
+
+@media screen and (min-width: 600px) {
+    .frame {
+      visibility: visible;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+@font-face {
+  font-family: cute;
+  src: url(https://dandaniel75.github.io/sillygaia/cutenotes.ttf);
+}
