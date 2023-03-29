@@ -145,3 +145,14 @@ iframe {
       visibility: visible;
     }
 }
+
+@media screen and (min-width: 600px) {
+  .sito {
+    visibility: visible;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
