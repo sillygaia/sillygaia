@@ -92,6 +92,13 @@ iframe {
   }
 }
 
+@media screen and (min-width: 481px) {
+  .link1 {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
     .text {
       visibility: hidden;
