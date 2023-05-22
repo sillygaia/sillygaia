@@ -86,6 +86,12 @@ iframe {
     }
   }
 
+@media screen and (min-width: 600px) {
+  .video-container {
+    visibility: visible;
+  }
+}
+
 @media screen and (max-width: 600px) {
     .text {
       visibility: hidden;
@@ -95,6 +101,19 @@ iframe {
       width: 28%;
       display: none;
     }
+}
+
+.link1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Ostrich Sans Inline', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2vh;
+  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 0,5px rgb(255, 255, 255);
+    margin-top: 1px; 
 }
 
 .testo-pc {
@@ -107,38 +126,45 @@ iframe {
   font-size: 3vh;
   text-shadow: 0px 0px 50px rgba(0, 0, 0, 0);
   -webkit-text-stroke: 0,5px rgb(255, 255, 255);
-    margin-top: 300px; 
+    margin-top: 250px; 
 }
 
 .sito {
   color: rgb(0, 0, 0);
   text-align: center;
   line-height: 00px;
-  font-family: 'Ostrich Sans', sans-serif;
-  font-weight: normal;
+  font-family: 'Ostrich Sans Inline', sans-serif;
+  font-weight: bold;
   font-style: normal;
-  font-size: 2vh;
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0);
+  font-size: 3.3vh;
+  text-shadow: 0px 0px 25px rgb(255, 0, 0);
   -webkit-text-stroke: 0,5px rgb(255, 255, 255);
-  margin-top: 20;
-}
+  margin-top: 15px;
+  
 
-
-  @media screen and (min-width: 600px) {
-    .testo-pc {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
-      display: none;
-    }
 }
 
 @media screen and (min-width: 600px) {
-  .video-container {
-    visibility: visible;
-  }
+  .link1 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+  .testo-pc {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -152,6 +178,7 @@ iframe {
       visibility: visible;
     }
 }
+
 
 @media screen and (min-width: 600px) {
   .sito {
